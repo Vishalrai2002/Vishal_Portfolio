@@ -75,7 +75,7 @@ document.querySelector(".hire-me").addEventListener("click",function()
     removrBackSection();
     addBackSection(SectionIndex);
 })
-const navTogglerBtn = document.querySelector('.nav-toggler'),
+const navTogglerBtn = document.querySelector('.nav-toggler');
 aside = document.querySelector('.aside');
 navTogglerBtn.addEventListener('click',() =>
 {
